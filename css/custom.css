@@ -1,0 +1,39 @@
+.id-phong{
+    width: 250px;
+    background-color: rgb(102, 255, 255, .5);
+    /* height: 200px; */
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.name-phong{
+    text-align: center;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.img-phong{
+    width: 200px;
+}
+.div-btn-phong{
+    text-align: center;
+    padding: 5px;
+}
+.btn-phong{
+    padding: 2px;
+    border-radius: 10px;
+    border: 1px solid;
+    width: 150px;
+}
+.phong{
+    display: flex;
+    flex-wrap: wrap;
+}
+.wthree-copyright{
+    text-align: center;
+}
+.name-website{
+    font-size: 30px;
+}
