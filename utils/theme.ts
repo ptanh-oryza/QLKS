@@ -4,7 +4,7 @@ import { red } from '@mui/material/colors';
 // Create a theme instance.
 export let theme = createTheme({
     typography: {
-        fontFamily: 'Montserrat, sans-serif',
+        fontFamily: 'Inter, sans-serif',
     },
     palette: {
         primary: {
