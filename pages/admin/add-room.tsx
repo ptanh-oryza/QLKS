@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
@@ -21,16 +21,8 @@ import { AdminLayout } from '@/components/common';
 export interface IAddRoomProps {}
 
 export default function AddRoom(props: IAddRoomProps) {
-    const [openDialog, setOpenDialog] = React.useState(false);
-    const [id, setId] = React.useState('');
-    const handleClose = () => setOpenDialog(false);
-    const handleOpenDelete = (id: string) => {
-        setOpenDialog(true);
-        setId(id);
-    };
-    const handelDelete = async () => {
-        setOpenDialog(false);
-    };
+    const [openDialog, setOpenDialog] = useState(false);
+    const [id, setId] = useState('');
 
     return (
         <Stack>
